@@ -1,0 +1,68 @@
+POST http://localhost:8081/api/books
+Content-Type: application/json
+
+{
+  "author": "abc",
+  "name": "asd",
+  "published": 2018
+}
+
+<> 2018-10-24T094633.201.json
+
+###
+
+POST http://localhost:8081/api/books
+Content-Type: application/json
+
+{
+  "author": "abc",
+  "name": "asd",
+  "published": 2018
+}
+
+<> 2018-10-24T094606.201.json
+
+###
+
+POST http://localhost:8081/api/books
+Content-Type: application/json
+
+{
+  "author": "abc",
+  "name": "asd",
+  "published": 2018
+}
+
+###
+
+GET http://localhost:8081/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-24T094210.200.json
+
+###
+
+DELETE http://localhost:8081/api/books/2
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8081/api/books
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-24T093717.200.json
+
+###
+
+GET http://localhost:8081/api/books/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-10-24T093711.200.json
+
+###
+
+
