@@ -1,3 +1,21 @@
+POST http://localhost:8081/api/books/two
+Content-Type: application/json
+
+[
+  {
+    "author": "author1",
+    "name": "name1",
+    "published": 2014
+  },
+  {
+    "author": "author2",
+    "name": "name2",
+    "published": 2015
+  }
+]
+
+###
+
 POST http://localhost:8081/api/books
 Content-Type: application/json
 
